@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilson & Sons Fencing - Privacy is key.</title>
+    <!-- Bootswatch Darkly Theme CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/darkly/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .hero { 
+            background: url('/assets/hero.jpg') no-repeat center/cover; 
+            padding: 4rem 2rem; 
+            color: #fff; 
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7); 
+            min-height: 800px;
+        }
+        .gallery img { 
+            width: 100%; 
+            height: 250px; 
+            object-fit: cover; 
+        }
+        /* Ensure consistency with Darkly theme */
+        body { background-color: #222; color: #ddd; }
+        .card { background-color: #333; border: none; }
+        .section { padding: 3rem 0; }
+        /* Logo styling */
+        .navbar-brand img { 
+            height: 120px; 
+            margin-right: 10px; 
+        }
+        /* Social icons styling */
+        .social-icons a { 
+            color: #ddd; 
+            font-size: 1.5rem; 
+            margin: 0 10px; 
+            text-decoration: none; 
+        }
+        .social-icons a:hover { 
+            color: #0d6efd; /* Matches Darkly's primary blue */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#home">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 justify-content-center justify-content-sm-start">
+                                <img style="width:100%; height:auto" src="/assets/wilson_logo.jpg" alt="Wilsons & Sons Fencing Logo">
+                                <div class="text-center">Wilson & Sons Fencing</div>
+                            </div>
+                            <div class="col-12 col-sm-6 justify-content-center justify-content-sm-start">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero text-center" id="home">
+        <div class="container">
+            <h1 class="display-4">Quality Fencing Solutions for Your Property</h1>
+            <p class="lead">Custom Residential Fencing Since 2010</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container text-center">
+            <h2 class="mb-4">Our Fencing Services</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Residential Fencing</h3>
+                            <p class="card-text">Enhance privacy and curb appeal with wood, vinyl, or aluminum fences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Custom Fencing</h3>
+                            <p class="card-text">Unique designs tailored to your vision.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section bg-secondary" id="about">
+        <div class="container text-center">
+            <h2 class="mb-4">Who We Are</h2>
+            <p class="lead">At Wilson & Sons Fencing, we've been building reliable, beautiful fences for over 15 years. Our team uses top-quality materials and craftsmanship to deliver results that last. Locally owned and operated in Owasso, Oklahoma.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section" id="gallery">
+        <div class="container text-center">
+            <h2 class="mb-4">Our Work</h2>
+            <div class="row gallery">
+                <div class="col-6 mb-3">
+                    <img src="/assets/curbappeal.jpg" alt="Curb Appeal" class="img-fluid">
+                </div>
+                <div class="col-6 mb-3">
+                    <img src="/assets/sideyard.jpg" alt="Side Yard Fence" class="img-fluid">
+                </div>
+                <div class="col-6 mb-3">
+                    <img src="/assets/sturdygates.jpg" alt="Sturdy Gates" class="img-fluid">
+                </div>
+                <div class="col-6 mb-3">
+                    <img src="/assets/privacy.jpg" alt="Ultimate Privacy" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section bg-secondary" id="testimonials">
+        <div class="container text-center">
+            <h2 class="mb-4">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <blockquote class="blockquote">
+                        <p>"10/10 would recommend!!!! – Bridgett C."</p>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <blockquote class="blockquote">
+                        <p>"Had them build a double gate and privacy fence for a house I just bought. They did a great job and communicated great with me on time frame and when they will be out definitely recommend
+                            ! – Trey S."</p>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <blockquote class="blockquote">
+                        <p>"10/10 Very Fast and Efficient! Great workers and they make sure everything is perfect! – Justin W."</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Form Removed) -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Get in Touch</h2>
+            <p class="text-center">Phone: (918) 550-1028 | Email: wilsonfencing27@gmail.com | Address: Tulsa, Oklahoma, 74055</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-3">
+        <div class="container text-center">
+            <p>© 2025 Wilson & Sons Fencing. All Rights Reserved.</p>
+            <div class="social-icons mt-2">
+                <a href="https://www.facebook.com/profile.php?id=61557647638259" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
