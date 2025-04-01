@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wilson & Sons Custom Woodworks - Privacy is key.</title>
+    
     <!-- Bootswatch Darkly Theme CSS from CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/darkly/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
         .hero { 
-            background: url('/assets/hero.jpg') no-repeat center/cover; 
+            background: url("/assets/hero.jpg") no-repeat center/cover; 
             padding: 4rem 2rem; 
             color: #fff; 
             text-shadow: 1px 1px 3px rgba(0,0,0,0.7); 
@@ -25,17 +28,22 @@
         body { background-color: #222; color: #ddd; }
         .card { background-color: #333; border: none; }
         .section { padding: 3rem 0; }
-                    </div>
-                </div>
-            </div>
-        </div>
+        .social-icons a { margin: 0 10px; color: #fff; font-size: 1.5rem; }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <h1>Wilson & Sons Custom Woodworks</h1>
+        <p class="lead">Crafting beautiful and durable fences for over 15 years.</p>
     </section>
 
     <!-- About Section -->
     <section class="section bg-secondary" id="about">
         <div class="container text-center">
             <h2 class="mb-4">Who We Are</h2>
-            <p class="lead">At Wilson & Sons custom woodworks, we've been building reliable, beautiful fences for over 15 years. Our team uses top-quality materials and craftsmanship to deliver results that last. Locally owned and operated in Owasso, Oklahoma.</p>
+            <p class="lead">At Wilson & Sons Custom Woodworks, we've been building reliable, beautiful fences for over 15 years. Our team uses top-quality materials and craftsmanship to deliver results that last. Locally owned and operated in Owasso, Oklahoma.</p>
         </div>
     </section>
 
@@ -67,29 +75,35 @@
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <blockquote class="blockquote">
-                        <p>"10/10 would recommend!!!! – Bridgett C."</p>
+                        <p>"10/10 would recommend!!!!"</p>
+                        <footer class="blockquote-footer">Bridgett C.</footer>
                     </blockquote>
                 </div>
                 <div class="col-md-4 mb-3">
                     <blockquote class="blockquote">
-                        <p>"Had them build a double gate and privacy fence for a house I just bought. They did a great job and communicated great with me on time frame and when they will be out definitely recommend
-                            ! – Trey S."</p>
+                        <p>"Had them build a double gate and privacy fence for a house I just bought. They did a great job and communicated great with me on time frame and when they will be out. Definitely recommend!"</p>
+                        <footer class="blockquote-footer">Trey S.</footer>
                     </blockquote>
                 </div>
                 <div class="col-md-4 mb-3">
                     <blockquote class="blockquote">
-                        <p>"10/10 Very Fast and Efficient! Great workers and they make sure everything is perfect! – Justin W."</p>
+                        <p>"10/10 Very Fast and Efficient! Great workers and they make sure everything is perfect!"</p>
+                        <footer class="blockquote-footer">Justin W.</footer>
                     </blockquote>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section (Form Removed) -->
+    <!-- Contact Section -->
     <section class="section" id="contact">
         <div class="container">
             <h2 class="text-center mb-4">Get in Touch</h2>
-            <p class="text-center">Phone: (918) 550-1028 | Email: wilsonfencing27@gmail.com | Address: Tulsa, Oklahoma, 74055</p>
+            <p class="text-center">
+                <strong>Phone:</strong> (918) 550-1028 <br>
+                <strong>Email:</strong> <a href="mailto:wilsonfencing27@gmail.com" class="text-light">wilsonfencing27@gmail.com</a> <br>
+                <strong>Address:</strong> Tulsa, Oklahoma, 74055
+            </p>
         </div>
     </section>
 
@@ -107,5 +121,6 @@
 
     <!-- Bootstrap JS from CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
